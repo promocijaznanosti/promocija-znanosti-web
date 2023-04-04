@@ -15,11 +15,14 @@
   .title {
     text-transform: uppercase;
     font-weight: 800;
+    font-size: 20px;
   }
 
   .nav-items {
     display: flex;
     gap: 16px;
+
+    font-size: 16px;
 
     a {
       text-transform: uppercase;
