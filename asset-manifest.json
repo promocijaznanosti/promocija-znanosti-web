@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/promocija-znanosti-web/static/css/main.073c9b0a.css",
+    "main.js": "/promocija-znanosti-web/static/js/main.82441e1c.js",
+    "static/js/787.dfb6af01.chunk.js": "/promocija-znanosti-web/static/js/787.dfb6af01.chunk.js",
+    "static/media/logo.svg": "/promocija-znanosti-web/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/promocija-znanosti-web/index.html",
+    "main.073c9b0a.css.map": "/promocija-znanosti-web/static/css/main.073c9b0a.css.map",
+    "main.82441e1c.js.map": "/promocija-znanosti-web/static/js/main.82441e1c.js.map",
+    "787.dfb6af01.chunk.js.map": "/promocija-znanosti-web/static/js/787.dfb6af01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.82441e1c.js"
+  ]
+}
