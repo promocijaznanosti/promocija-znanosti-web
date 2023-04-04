@@ -1,0 +1,38 @@
+@import "../../styles/constants.scss";
+@import "../../styles/colors.scss";
+@import "../../styles/fonts.scss";
+
+.pz-header {
+  display: flex;
+  height: 60px;
+  padding: 0px $default-page-padding;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #2b2b2b;
+  color: #ffffff;
+
+  .title {
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+  .nav-items {
+    display: flex;
+    gap: 16px;
+
+    a {
+      text-transform: uppercase;
+      font-weight: 400;
+
+      color: #848484;
+
+      &:hover,
+      &.active {
+        color: $primary-accent-color;
+      }
+
+      transition: color 0.25s;
+    }
+  }
+}
