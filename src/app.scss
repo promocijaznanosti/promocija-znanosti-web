@@ -2,4 +2,31 @@
 
 .content-container {
   min-height: calc(100vh - $header-height - $footer-height);
+  padding-bottom: 48px;
+}
+
+.pz-slide {
+  padding: 0px $default-page-padding;
+}
+
+.pz-slide-inner {
+  padding: $vertical-slide-padding 0px;
+}
+
+.pz-slide-title {
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 45px;
+}
+
+.light-grey-bg {
+  background-color: #f2f2f2;
+}
+
+.dark-grey-bg {
+  background-color: #dedede;
 }

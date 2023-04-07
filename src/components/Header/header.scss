@@ -4,10 +4,14 @@
 
 .pz-header {
   display: flex;
-  height: 60px;
+  height: $header-height;
   padding: 0px $default-page-padding;
   justify-content: space-between;
   align-items: center;
+
+  position: sticky;
+  top: 0px;
+  left: 0px;
 
   background-color: #2b2b2b;
   color: #ffffff;
@@ -15,14 +19,14 @@
   .title {
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .nav-items {
     display: flex;
-    gap: 16px;
+    gap: 32px;
 
-    font-size: 16px;
+    font-size: 14px;
 
     a {
       text-transform: uppercase;

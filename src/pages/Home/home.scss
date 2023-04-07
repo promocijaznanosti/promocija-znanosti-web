@@ -1,2 +1,76 @@
+@import "../../styles/colors.scss";
+
 .pz-home {
+  .projects-container {
+    $padding: 180px;
+    padding-left: $padding;
+    padding-right: $padding;
+    text-align: center;
+  }
+
+  .project-descriptions-container {
+    padding: 32px 36px;
+
+    .project-card {
+      display: flex;
+      padding: 40px;
+
+      border-bottom: solid 0.5px #ffffff80;
+      &:last-child {
+        border: none;
+      }
+
+      &:nth-child(odd) {
+        flex-direction: row;
+        text-align: left;
+
+        .project-title {
+          border-left: solid 3px $primary-accent-color;
+          padding-left: 8px;
+        }
+      }
+
+      &:nth-child(even) {
+        flex-direction: row-reverse;
+        text-align: right;
+
+        .project-title {
+          border-right: solid 3px $primary-accent-color;
+          padding-right: 8px;
+        }
+      }
+
+      .project-title {
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+
+      .project-description {
+        margin-bottom: 16px;
+      }
+
+      .learn-more {
+        text-decoration: underline;
+        font-weight: 600;
+      }
+
+      .project-image,
+      .project-data {
+        width: 50%;
+      }
+
+      .project-image {
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
 }

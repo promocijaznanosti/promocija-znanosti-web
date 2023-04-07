@@ -1,0 +1,13 @@
+.pz-partners {
+  .partner-logos-container {
+    display: flex;
+    justify-content: space-around;
+
+    .partner-image {
+      max-width: 100px;
+
+      object-fit: cover;
+      border-radius: 50px;
+    }
+  }
+}

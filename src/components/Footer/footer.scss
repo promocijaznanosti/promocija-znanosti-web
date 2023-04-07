@@ -5,7 +5,7 @@ $footer-vertical-padding: 48px;
 
 .pz-footer {
   height: calc($footer-height - 2 * $footer-vertical-padding);
-  padding: $footer-vertical-padding calc($default-page-padding + 76px);
+  padding: $footer-vertical-padding $default-page-padding;
 
   background-color: #2b2b2b;
   color: #ffffff;
@@ -41,9 +41,10 @@ $footer-vertical-padding: 48px;
     .navigation {
       display: flex;
       flex-direction: column;
-      line-height: 28px;
+      line-height: 22px;
       color: #adadad;
-      font-size: 16px;
+      font-size: 14px;
+      margin-bottom: 8px;
 
       a:hover {
         color: $primary-accent-color;
