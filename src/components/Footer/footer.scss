@@ -3,6 +3,25 @@
 
 $footer-vertical-padding: 48px;
 
+.pz-footer-border {
+  height: $footer-border-height;
+  background-image: linear-gradient(
+    to right,
+    #c79937,
+    #cfac52,
+    #d8bf6e,
+    #e2d18a,
+    #ece3a6,
+    #ece3a6,
+    #ece3a6,
+    #ece3a6,
+    #e2d18a,
+    #d8bf6e,
+    #cfac52,
+    #c79937
+  );
+}
+
 .pz-footer {
   height: calc($footer-height - 2 * $footer-vertical-padding);
   padding: $footer-vertical-padding $default-page-padding;

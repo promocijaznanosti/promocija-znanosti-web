@@ -6,7 +6,7 @@ const Partners = () => {
   return (
     <div className="pz-partners pz-slide">
       <div className="pz-slide-inner">
-        <div className="pz-slide-title">Sponzori</div>
+        <div className="pz-slide-title">Partneri</div>
         <div className="partner-logos-container">
           {partnersData.map((partner) => (
             <a

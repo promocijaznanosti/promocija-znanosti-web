@@ -1,8 +1,12 @@
 @import "./styles/constants.scss";
 
 .content-container {
-  min-height: calc(100vh - $header-height - $footer-height);
-  padding-bottom: 48px;
+  $content-padding: 48px;
+  min-height: calc(
+    100vh - $header-height - $footer-height - $footer-border-height -
+      $content-padding
+  );
+  padding-bottom: $content-padding;
 }
 
 .pz-slide {
@@ -15,7 +19,7 @@
 
 .pz-slide-title {
   font-weight: 800;
-  font-size: 18px;
+  font-size: 24px;
   text-transform: uppercase;
   display: flex;
   justify-content: center;

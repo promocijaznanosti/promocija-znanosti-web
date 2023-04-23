@@ -1,7 +1,8 @@
 .pz-partners {
   .partner-logos-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 48px;
 
     .partner-image {
       max-width: 100px;

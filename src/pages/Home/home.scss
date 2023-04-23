@@ -1,6 +1,21 @@
+@import "../../styles/constants.scss";
 @import "../../styles/colors.scss";
 
 .pz-home {
+  .pz-banner {
+    display: flex;
+    height: $banner-height;
+    background-color: #131313;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+
+    .banner-logo {
+      height: 100%;
+    }
+  }
+
   .projects-container {
     $padding: 180px;
     padding-left: $padding;

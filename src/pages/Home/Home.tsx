@@ -1,14 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Banner from "../../components/Banner/Banner";
 import Partners from "../../components/Partners/Partners";
+import { projectDescriptions } from "../../resources/project-info/project-descriptions";
 import "./home.scss";
-import { projectDescriptions } from "./project-descriptions";
 
 const Home = () => {
   return (
     <div className="pz-home pz-page">
-      <Banner />
+      <div className="pz-banner pz-slide">
+        <img
+          src={require("../../resources/banner/banner-logo.png")}
+          alt="Institut za promociju znanosti logo"
+          className="banner-logo"
+        />
+      </div>
       <Partners />
       <div className="pz-slide">
         <div className="pz-slide-inner projects-container light-grey-bg">
@@ -39,7 +44,7 @@ const Home = () => {
           {projectDescriptions.map((project) => (
             <div className="project-card">
               <div className="project-image">
-                <img src={project.image} alt={project.title} />
+                <img src={project.homePageImage} alt={project.title} />
               </div>
               <div className="project-data">
                 <div className="project-title">{project.title}</div>

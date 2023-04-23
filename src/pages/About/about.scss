@@ -1,2 +1,99 @@
 .pz-about {
+  &-introduction {
+    display: flex;
+    height: 480px;
+    gap: 48px;
+
+    .intro-image,
+    img {
+      height: 100%;
+    }
+
+    .intro-data {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 16px;
+
+      padding-right: 120px;
+
+      font-size: 14px;
+
+      .intro-text {
+        font-weight: 300;
+      }
+
+      .intro-author {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .pz-slide {
+    &:nth-child(even) {
+      .institute-branch {
+        background-color: #f2f2f2;
+      }
+    }
+
+    &:nth-child(odd) {
+      .institute-branch {
+        background-color: #dedede;
+      }
+    }
+
+    .institute-branch {
+      padding: 48px;
+
+      .branch-members {
+        $member-gap: 48px;
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: $member-gap;
+        justify-content: center;
+
+        .branch-member {
+          max-width: calc(33% - 2 / 3 * $member-gap);
+
+          font-size: 14px;
+
+          .member-image {
+            width: 100%;
+            vertical-align: middle;
+          }
+
+          .border {
+            margin-bottom: 16px;
+            height: 6px;
+            width: 100%;
+            background-image: linear-gradient(
+              to right,
+              #c79937,
+              #cfac52,
+              #d8bf6e,
+              #e2d18a,
+              #ece3a6,
+              #ece3a6,
+              #ece3a6,
+              #ece3a6,
+              #e2d18a,
+              #d8bf6e,
+              #cfac52,
+              #c79937
+            );
+          }
+
+          .member-association {
+            margin-bottom: 16px;
+          }
+
+          .member-description {
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
 }
