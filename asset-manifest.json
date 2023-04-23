@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/promocija-znanosti-web/static/css/main.e5364d42.css",
-    "main.js": "/promocija-znanosti-web/static/js/main.2d4e988e.js",
-    "static/media/project-znanstvena-peskarija.png": "/promocija-znanosti-web/static/media/project-znanstvena-peskarija.aec97d6ad65e00a3bc96.png",
+    "main.css": "/promocija-znanosti-web/static/css/main.fc0fd6b3.css",
+    "main.js": "/promocija-znanosti-web/static/js/main.5b291f06.js",
+    "static/media/intro-image.png": "/promocija-znanosti-web/static/media/intro-image.a2df2bf09aa311022287.png",
+    "static/media/matea-vasilj.png": "/promocija-znanosti-web/static/media/matea-vasilj.ee750ac5b847f65f153a.png",
+    "static/media/filip-turcinovic.png": "/promocija-znanosti-web/static/media/filip-turcinovic.dae88ad16f2c0b1b43bb.png",
+    "static/media/dario-bojanjac.png": "/promocija-znanosti-web/static/media/dario-bojanjac.180095e53785bf024e3c.png",
     "static/media/project-podkist.png": "/promocija-znanosti-web/static/media/project-podkist.c4e1b07880e2271979e5.png",
+    "static/media/project-znanstvena-peskarija.png": "/promocija-znanosti-web/static/media/project-znanstvena-peskarija.3a4e2e686851b35add66.png",
     "static/media/banner-logo.png": "/promocija-znanosti-web/static/media/banner-logo.33f3617cd2d61c500b26.png",
     "static/media/project-znanost.png": "/promocija-znanosti-web/static/media/project-znanost.561b3f0ec8c87ff03811.png",
     "static/media/promocija-znanosti-logo.png": "/promocija-znanosti-web/static/media/promocija-znanosti-logo.f6e9c18e23f5aa6784f0.png",
     "index.html": "/promocija-znanosti-web/index.html",
-    "main.e5364d42.css.map": "/promocija-znanosti-web/static/css/main.e5364d42.css.map",
-    "main.2d4e988e.js.map": "/promocija-znanosti-web/static/js/main.2d4e988e.js.map"
+    "main.fc0fd6b3.css.map": "/promocija-znanosti-web/static/css/main.fc0fd6b3.css.map",
+    "main.5b291f06.js.map": "/promocija-znanosti-web/static/js/main.5b291f06.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5364d42.css",
-    "static/js/main.2d4e988e.js"
+    "static/css/main.fc0fd6b3.css",
+    "static/js/main.5b291f06.js"
   ]
 }
