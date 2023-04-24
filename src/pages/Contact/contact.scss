@@ -1,2 +1,83 @@
 .pz-contact {
+  .pz-slide {
+    display: flex;
+    flex-direction: row;
+
+    & > div {
+      padding-bottom: 48px;
+    }
+
+    .pz-contact-data {
+      $horizontal-padding: 32px;
+      width: calc(50% - 2 * $horizontal-padding);
+      background-color: #f2f2f2;
+
+      padding: 48px $horizontal-padding;
+
+      .pz-slide-title {
+        text-align: left;
+        justify-content: flex-start;
+      }
+
+      .branch-contact {
+        margin-bottom: 32px;
+
+        .branch-name {
+          font-size: 18px;
+          font-weight: 800;
+          text-transform: uppercase;
+          margin-bottom: 16px;
+        }
+
+        .member-contact {
+          margin-bottom: 24px;
+
+          .member-title {
+            margin-bottom: 8px;
+          }
+
+          .member-contact-info {
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 8px;
+
+            i {
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+    }
+
+    .pz-map-container {
+      width: 50%;
+      background-color: #dedede;
+
+      .map-title {
+        background-color: #252525;
+        padding: 80px 0px 48px 32px;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .title {
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+
+        .subtitle {
+          i {
+            margin-right: 8px;
+          }
+        }
+      }
+
+      .map {
+        small > a {
+          padding-left: 16px;
+        }
+      }
+    }
+  }
 }

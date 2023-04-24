@@ -93,7 +93,7 @@ export const instituteBranchesData: InstituteBranch[] = [
           </>
         ),
         association: "Filozofski fakultet Sveučilišta u Zagrebu",
-        imagePath: require("../../resources/about-page/members-images/dario-bojanjac.png"),
+        imagePath: require("../../resources/about-page/members-images/renata-geld.png"),
       },
       {
         key: "Marko Delimar",
@@ -103,7 +103,7 @@ export const instituteBranchesData: InstituteBranch[] = [
           </>
         ),
         association: "Fakultet elektrotehnike i računarstva",
-        imagePath: require("../../resources/about-page/members-images/dario-bojanjac.png"),
+        imagePath: require("../../resources/about-page/members-images/marko-delimar.png"),
       },
       {
         key: "Stefan Cikota",
@@ -113,7 +113,7 @@ export const instituteBranchesData: InstituteBranch[] = [
           </>
         ),
         association: "Calar Alto Observatory",
-        imagePath: require("../../resources/about-page/members-images/dario-bojanjac.png"),
+        imagePath: require("../../resources/about-page/members-images/stefan-cikota.png"),
       },
     ],
   },
@@ -137,7 +137,7 @@ export const instituteBranchesData: InstituteBranch[] = [
             aktivni radiofrekvencijski sklopovi.
           </>
         ),
-        imagePath: require("../../resources/about-page/members-images/dario-bojanjac.png"),
+        imagePath: require("../../resources/about-page/members-images/dominik-zanic.png"),
       },
       {
         key: "",
@@ -156,7 +156,7 @@ export const instituteBranchesData: InstituteBranch[] = [
             simetrijama.
           </>
         ),
-        imagePath: require("../../resources/about-page/members-images/dario-bojanjac.png"),
+        imagePath: require("../../resources/about-page/members-images/dubravko-tomic.png"),
       },
     ],
   },
