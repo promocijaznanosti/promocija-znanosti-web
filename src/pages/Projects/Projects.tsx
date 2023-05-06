@@ -24,15 +24,17 @@ const Projects = () => {
       ))}
       <Partners />
 
-      <div className="other-projects">
-        <div className="pz-slide-title">Svi projekti</div>
-        <div className="projects-container">
-          {otherProjectDescriptions.map((project) => (
-            <div className="other-project">
-              <div className="title">{project.title}</div>
-              <div className="description">{project.description}</div>
-            </div>
-          ))}
+      <div className="other-projects-container">
+        <div className="other-projects">
+          <div className="pz-slide-title">Svi projekti</div>
+          <div className="projects-container">
+            {otherProjectDescriptions.map((project) => (
+              <div className="other-project">
+                <div className="title">{project.title}</div>
+                <div className="description">{project.description}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -84,4 +84,50 @@
       }
     }
   }
+
+  .other-projects-container {
+    padding: 0px $default-page-padding;
+
+    .other-projects {
+      background-color: #dddddd;
+
+      padding: 40px 64px;
+
+      .projects-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .other-project {
+          $padding: 32px;
+          width: calc(50% - 2 * $padding);
+
+          padding: $padding;
+
+          &:nth-child(3n) {
+            background-color: #f7f7f7;
+          }
+
+          &:nth-child(3n + 1) {
+            background-color: #eeeeee;
+          }
+
+          &:nth-child(3n + 2) {
+            background-color: #d2d2d2;
+          }
+
+          .title {
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 14px;
+            margin-bottom: 8px;
+          }
+
+          .description {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
 }
