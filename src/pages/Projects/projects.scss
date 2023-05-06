@@ -1,2 +1,87 @@
+@import "../../styles/constants.scss";
+@import "../../styles/colors.scss";
+
 .pz-projects {
+  .main-project {
+    $main-project-slide-height: 340px;
+
+    padding: 0px $default-page-padding;
+    height: $main-project-slide-height;
+
+    display: flex;
+    gap: 32px;
+
+    &:nth-child(odd) {
+      background-color: #dddddd;
+      flex-direction: row;
+
+      .data {
+        text-align: left;
+
+        .title {
+          border-left: solid 6px $primary-accent-color;
+        }
+      }
+    }
+
+    &:nth-child(even) {
+      background-color: #ffffff;
+      flex-direction: row-reverse;
+
+      .data {
+        text-align: right;
+
+        .title {
+          border-right: solid 6px $primary-accent-color;
+        }
+      }
+    }
+
+    .image {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+
+      img {
+        height: $main-project-slide-height;
+      }
+    }
+
+    .data {
+      width: 40%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .title {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 800;
+
+        padding: 0px 8px;
+        margin-bottom: 8px;
+      }
+
+      .description {
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+
+      .learn-more {
+        text-decoration: underline;
+        font-size: 14px;
+        font-weight: 800;
+      }
+    }
+
+    &.dark-mode {
+      color: #ffffff;
+      background-color: #000000;
+
+      .learn-more {
+        color: $primary-accent-color;
+      }
+    }
+  }
 }
