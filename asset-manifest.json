@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/promocija-znanosti-web/static/css/main.37af5d2c.css",
-    "main.js": "/promocija-znanosti-web/static/js/main.42bdb380.js",
+    "main.css": "/promocija-znanosti-web/static/css/main.8dbb12e7.css",
+    "main.js": "/promocija-znanosti-web/static/js/main.d767eba4.js",
     "static/media/intro-image.png": "/promocija-znanosti-web/static/media/intro-image.a2df2bf09aa311022287.png",
     "static/media/matea-vasilj.png": "/promocija-znanosti-web/static/media/matea-vasilj.ee750ac5b847f65f153a.png",
     "static/media/project-znanstvena-peskarija.png": "/promocija-znanosti-web/static/media/project-znanstvena-peskarija.3a4e2e686851b35add66.png",
@@ -17,11 +17,11 @@
     "static/media/project-znanost.png": "/promocija-znanosti-web/static/media/project-znanost.561b3f0ec8c87ff03811.png",
     "static/media/promocija-znanosti-logo.png": "/promocija-znanosti-web/static/media/promocija-znanosti-logo.f6e9c18e23f5aa6784f0.png",
     "index.html": "/promocija-znanosti-web/index.html",
-    "main.37af5d2c.css.map": "/promocija-znanosti-web/static/css/main.37af5d2c.css.map",
-    "main.42bdb380.js.map": "/promocija-znanosti-web/static/js/main.42bdb380.js.map"
+    "main.8dbb12e7.css.map": "/promocija-znanosti-web/static/css/main.8dbb12e7.css.map",
+    "main.d767eba4.js.map": "/promocija-znanosti-web/static/js/main.d767eba4.js.map"
   },
   "entrypoints": [
-    "static/css/main.37af5d2c.css",
-    "static/js/main.42bdb380.js"
+    "static/css/main.8dbb12e7.css",
+    "static/js/main.d767eba4.js"
   ]
 }
