@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/promocija-znanosti-web/static/css/main.8dbb12e7.css",
-    "main.js": "/promocija-znanosti-web/static/js/main.d767eba4.js",
+    "main.css": "/promocija-znanosti-web/static/css/main.11b6c75e.css",
+    "main.js": "/promocija-znanosti-web/static/js/main.c9a8c754.js",
+    "static/media/banner-znanstvena-peskarija.png": "/promocija-znanosti-web/static/media/banner-znanstvena-peskarija.38189ff5c09d9390aacf.png",
     "static/media/intro-image.png": "/promocija-znanosti-web/static/media/intro-image.a2df2bf09aa311022287.png",
     "static/media/matea-vasilj.png": "/promocija-znanosti-web/static/media/matea-vasilj.ee750ac5b847f65f153a.png",
     "static/media/project-znanstvena-peskarija.png": "/promocija-znanosti-web/static/media/project-znanstvena-peskarija.3a4e2e686851b35add66.png",
@@ -14,14 +15,16 @@
     "static/media/dubravko-tomic.png": "/promocija-znanosti-web/static/media/dubravko-tomic.6dce3fa6010d866e3a46.png",
     "static/media/project-podkist.png": "/promocija-znanosti-web/static/media/project-podkist.e00f770242c9ff544c5d.png",
     "static/media/banner-logo.png": "/promocija-znanosti-web/static/media/banner-logo.33f3617cd2d61c500b26.png",
+    "static/media/banner-znanost.png": "/promocija-znanosti-web/static/media/banner-znanost.56663dbc4b7f9a81430f.png",
     "static/media/project-znanost.png": "/promocija-znanosti-web/static/media/project-znanost.561b3f0ec8c87ff03811.png",
+    "static/media/banner-podkist.png": "/promocija-znanosti-web/static/media/banner-podkist.e00f770242c9ff544c5d.png",
     "static/media/promocija-znanosti-logo.png": "/promocija-znanosti-web/static/media/promocija-znanosti-logo.f6e9c18e23f5aa6784f0.png",
     "index.html": "/promocija-znanosti-web/index.html",
-    "main.8dbb12e7.css.map": "/promocija-znanosti-web/static/css/main.8dbb12e7.css.map",
-    "main.d767eba4.js.map": "/promocija-znanosti-web/static/js/main.d767eba4.js.map"
+    "main.11b6c75e.css.map": "/promocija-znanosti-web/static/css/main.11b6c75e.css.map",
+    "main.c9a8c754.js.map": "/promocija-znanosti-web/static/js/main.c9a8c754.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dbb12e7.css",
-    "static/js/main.d767eba4.js"
+    "static/css/main.11b6c75e.css",
+    "static/js/main.c9a8c754.js"
   ]
 }
