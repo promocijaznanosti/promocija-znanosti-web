@@ -1,2 +1,17 @@
+@import "../../styles/constants.scss";
+
 .pz-project-article {
+  .article-data-container {
+    display: flex;
+
+    padding: 0px $default-page-padding;
+    .article-text {
+      width: 70%;
+
+      padding: 40px;
+
+      background-color: #f2f2f2;
+      font-size: 14px;
+    }
+  }
 }

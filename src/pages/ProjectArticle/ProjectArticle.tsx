@@ -1,12 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import { articles } from "./articles/articles";
 
 const ProjectArticle = () => {
   const { articleId } = useParams();
 
-  // const projectData = articles[params.articleId];
+  const projectPage: any = articles[articleId as string].element;
 
-  return <div>{articleId}</div>;
+  return <div>{projectPage}</div>;
 };
 
 export default ProjectArticle;

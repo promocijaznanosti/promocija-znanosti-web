@@ -1,0 +1,44 @@
+import React from "react";
+import ArticleBanner from "../../../../components/ArticleBanner/ArticleBanner";
+import { BreadcrumbProps } from "../../../../components/Breadcrumb/Breadcrumb";
+import ProjectsListTab from "../../../../components/ProjectsListTab/ProjectsListTab";
+import "../../projectArticle.scss";
+
+const {{pascalCase articleName}} = () => {
+  const breadcrumbProps: BreadcrumbProps = {
+    items: [
+      {
+        key: "projekti",
+        title: "Projekti",
+        href: "/projects",
+      },
+      {
+        key: "{{kebabCase articleName}}",
+        title: "{{articleName}}",
+      },
+    ],
+  };
+
+  return (
+    <div className="pz-project-article article-{{kebabCase articleName}}">
+      <ArticleBanner
+        breadcrumbProps={breadcrumbProps}
+        // imageSrc={require("../../../../resources/articles/{{pascalCase articleName}}/banner-{{kebabCase articleName}}.png")}
+        title="{{articleName}}"
+        colorMode="light"
+      />
+
+      <div className="article-data-container">
+        <div className="article-text">
+          Enter your article data here
+        </div>
+        <ProjectsListTab
+          activeProject="{{kebabCase articleName}}"
+          title="Ostali projekti"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default {{pascalCase articleName}};

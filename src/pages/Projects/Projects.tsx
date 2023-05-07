@@ -9,14 +9,17 @@ const Projects = () => {
   return (
     <div className="pz-projects pz-page">
       {projectDescriptions.map((project) => (
-        <div className={`main-project ${project.colorMode || "light"}-mode`}>
+        <div
+          className={`main-project ${project.colorMode || "light"}-mode`}
+          key={project.id}
+        >
           <div className="image">
             <img src={project.projectsPageImage} alt={project.title} />
           </div>
           <div className="data">
             <div className="title">{project.title}</div>
             <div className="description">{project.description}</div>
-            <Link to={`projects/${project.id}`} className="learn-more">
+            <Link to={`${project.id}`} className="learn-more">
               saznaj više
             </Link>
           </div>
@@ -29,7 +32,7 @@ const Projects = () => {
           <div className="pz-slide-title">Svi projekti</div>
           <div className="projects-container">
             {otherProjectDescriptions.map((project) => (
-              <div className="other-project">
+              <div className="other-project" key={project.id}>
                 <div className="title">{project.title}</div>
                 <div className="description">{project.description}</div>
               </div>

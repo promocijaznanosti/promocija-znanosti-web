@@ -121,7 +121,7 @@ export const instituteBranchesData: InstituteBranch[] = [
     name: "Istaknuti članovi Instituta",
     members: [
       {
-        key: "",
+        key: "Dominik Žanić",
         memberTitle: (
           <>
             <b>Dominik Žanić</b>, mag. ing.
@@ -140,7 +140,7 @@ export const instituteBranchesData: InstituteBranch[] = [
         imagePath: require("../../resources/about-page/members-images/dominik-zanic.png"),
       },
       {
-        key: "",
+        key: "Dubravko Tomić",
         memberTitle: (
           <>
             <b>Dubravko Tomić</b>, mag. ing.

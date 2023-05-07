@@ -1,0 +1,64 @@
+@import "../../styles/constants.scss";
+@import "../../styles/colors.scss";
+
+.article-banner {
+  $banner-height: 400px;
+  height: $banner-height;
+  width: 100%;
+  display: flex;
+  position: relative;
+  z-index: 0;
+
+  justify-content: center;
+
+  &.dark-mode {
+    background-color: black;
+
+    .breadcrumb {
+      .breadcrumb-item:not(.link) {
+        color: white;
+      }
+    }
+
+    .article-title {
+      color: white;
+    }
+  }
+
+  &.light-mode {
+    background-color: white;
+  }
+
+  img {
+    max-height: 100%;
+  }
+
+  .breadcrumb {
+    position: absolute;
+    left: $default-page-padding;
+    top: 16px;
+  }
+
+  .article-title {
+    position: absolute;
+
+    left: calc($default-page-padding + 48px);
+    top: calc(0.6 * $banner-height);
+
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 800;
+    max-width: 250px;
+  }
+
+  .border-accent {
+    position: absolute;
+
+    left: calc($default-page-padding + 32px);
+    top: calc(0.6 * $banner-height + 12px);
+
+    height: 36px;
+
+    border-left: 6px solid $primary-accent-color;
+  }
+}
